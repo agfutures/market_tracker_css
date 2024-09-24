@@ -1,0 +1,72 @@
+
+        #menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 0px;
+            margin-right: 2px;
+            background-color: #D3D3D3;  //#89CFF0
+        }
+        body {
+            margin: 0;
+        }
+        img {
+            max-width: 10in;
+            max-height: 6in;
+            margin-top: 1px;
+        }
+        .slicer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            box-sizing: border-box;
+            padding: 0px;
+            font-size: 11px;
+            font-family: Helvetica, sans-serif; /* Added font-family property */
+            height: auto;
+            overflow-y: auto;
+            margin-bottom: 10px;
+        }
+        .commodity {
+            width: 50px;
+        }
+        .comm_class {
+            width: 120px;
+        }
+        .def {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) !important;
+        }
+        .def > div {
+            width: 100%;
+        }
+        .region {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) !important;
+        }
+        .region > div {
+            width: 100%;
+        }
+        .MktYear {
+            width: 100px;
+        }
+        .Release {
+            width: 120px;
+        }
+        .slicer label {
+            display: inline-block;
+
+        }
+        .slicer input[type="radio"] {
+            display: inline-block;
+            margin-right: 5px;
+        }
+        h1 {
+            margin: 0;
+        }
+        #chart {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
